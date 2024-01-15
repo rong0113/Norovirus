@@ -95,7 +95,7 @@ for i in range(len(a)):
         s.append(xg[j] +rf[j] + dt[j]+lg[j]+cat[j])
     idx = s.index(max(s))
     
-    df.loc[i, "Features"] = a[i]
+    df.loc[i, "Features"] = str(a[i])
     df.loc[i, "rs"] = idx
     df.loc[i, "r2_xg"] = xg[idx]
     df.loc[i, "r2_rf"] = rf[idx]
