@@ -8,7 +8,7 @@ import pandas as pd
 import pathlib
 from pathlib import Path
 root_dir = Path.cwd()
-noro = pd.read_csv(root_dir / 'Norovirus/data/Noro_KNN_complete.csv')
+noro = pd.read_csv(root_dir / 'Norovirus/data/Noro_KNN_complete.csv/')
 
 
 # In[ ]:
